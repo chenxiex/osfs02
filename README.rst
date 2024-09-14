@@ -20,7 +20,7 @@ Sometimes it's the only choice. Boot sector, for instance, can only be written i
 Why nasm? I chose nasm only because I prefer x86 flavor to AT&T syntax.
 You can have your own choice.
 
-Bochs
+Qemu
 """""
 
 Why do you need an emulator? The fact is you don't have to, but if you don't use one, your developing process would be much much harder.
@@ -31,10 +31,7 @@ By using an emulator like bochs, we can just type some words and the "machine" i
 Moreover, you can even use bochs to debug your OS, which would be mission impossible using a *real* machine.
 In most cases, a *virtual* machine is just the same as a real one, so let's use it.
 
-There're many emulators out there, you would say, why bochs? 
-I actually have answered this question: because we can use it to debug our system.
-It has built-in debugging function and you can also use bochs with a remote gdb stub.
-I'll probably talk about this in detail later.
+This fork focus on qemu. If you want to use bochs, just checkout the master branch or the upstream repo.
 
 What else?
 ''''''''''
