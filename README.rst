@@ -33,6 +33,8 @@ In most cases, a *virtual* machine is just the same as a real one, so let's use 
 
 This fork focus on qemu. If you want to use bochs, just checkout the master branch or the upstream repo.
 
+Qemu can also be used for debugging. `debug.md`_ introduces how to use qemu and gdb to debug.
+
 What else?
 ''''''''''
 
@@ -64,6 +66,7 @@ GitHub makes it so easy. That's why you like GitHub, right?
 
 `‹prev`_   `next›`_
 
-.. _`Step 01`: https://github.com/yyu/osfs01
-.. _`‹prev`: https://github.com/yyu/osfs01
-.. _`next›`: https://github.com/yyu/osfs03
+.. _`Step 01`: https://github.com/chenxiex/osfs01
+.. _`debug.md`: https://github.com/chenxiex/osfs02/blob/qemu/debug.md
+.. _`‹prev`: https://github.com/chenxiex/osfs01
+.. _`next›`: https://github.com/chenxiex/osfs03
